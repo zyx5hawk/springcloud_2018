@@ -88,5 +88,6 @@
 		<module>microservicecloud_eureka_7001</module>
 		<module>microservicecloud_consume_dept_80</module>
 		<module>microservicecloud_eureka_7002</module>
+		<module>microservicecloud_provider_dept_hystrix_8001</module>
 	</modules>
 </project>
