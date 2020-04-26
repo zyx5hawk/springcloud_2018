@@ -1,0 +1,22 @@
+server: 
+   port: 8002
+
+spring: 
+   application: 
+      name: microservicecloud-dept
+    
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url: 
+      #defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/      
+  instance:
+    instance-id: microservicecloud-dept8002
+    prefer-ip-address: true     #访问路径可以显示IP地址     
+ 
+info: 
+  app.name: microservicecloud_8002
+  company.name: www.halliburton.com_8002
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+  note.remark: this is API 8002
