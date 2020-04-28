@@ -1,0 +1,4 @@
+com\zyx\microservicecloud\entities\Dept.class
+com\zyx\microservicecloud\entities\service\DeptClientServiceFallbackFactory.class
+com\zyx\microservicecloud\entities\service\DeptClientServiceFallbackFactory$1.class
+com\zyx\microservicecloud\entities\service\DeptClientService.class
