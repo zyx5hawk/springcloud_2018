@@ -94,5 +94,7 @@
 			microservicecloud_consumer_dept_82_hystrix_dashboard
 		</module>
 		<module>microservicecloud_zuul_gateway_9000</module>
+		<module>microservicecloud_config_server_6000</module>
+		<module>microservicecloud_config_client_6001</module>
 	</modules>
 </project>
