@@ -1,8 +1,6 @@
 package com.zyx.microservicecloud.entities;
 
 import java.io.Serializable;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 public class Dept implements Serializable {
 	private Long deptno;

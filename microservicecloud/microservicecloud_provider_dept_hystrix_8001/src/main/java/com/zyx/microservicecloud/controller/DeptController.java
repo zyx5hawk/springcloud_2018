@@ -32,7 +32,7 @@ public class DeptController {
 		}
 		Dept d = new Dept();
 		d.setDeptno(id);
-		d.setDname(id.toString() + id.toString());
+		d.setDname("8003");
 		
 		return d;
 	}
@@ -40,7 +40,7 @@ public class DeptController {
 	public Dept processHystrix_Get(@PathVariable("id") Long id) {
 		Dept d = new Dept();
 		d.setDeptno(999L);
-		d.setDname("9999");
+		d.setDname("8003");
 		return d;
 	}
 
@@ -51,13 +51,13 @@ public class DeptController {
 		List<Dept> arr = new ArrayList<Dept>();
 
 		Dept d = new Dept();
-		d.setDeptno(3L);
-		d.setDname("33");
+		d.setDeptno(5L);
+		d.setDname("8003");
 		arr.add(d);
 
 		d = new Dept();
-		d.setDeptno(4L);
-		d.setDname("44");
+		d.setDeptno(6L);
+		d.setDname("8003");
 		arr.add(d);
 		return arr;
 	}

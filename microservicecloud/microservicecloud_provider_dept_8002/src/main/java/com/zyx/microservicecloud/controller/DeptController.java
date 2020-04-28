@@ -21,8 +21,8 @@ public class DeptController {
 	@RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
 	public Dept get(@PathVariable("id") Long id) {
 		Dept d = new Dept();
-		d.setDeptno(id+1);
-		d.setDname(id.toString() + id.toString());
+		d.setDeptno(id);
+		d.setDname("8002");
 		return d;
 	}
 
@@ -34,12 +34,12 @@ public class DeptController {
 
 		Dept d = new Dept();
 		d.setDeptno(3L);
-		d.setDname("33");
+		d.setDname("8002");
 		arr.add(d);
 
 		d = new Dept();
 		d.setDeptno(4L);
-		d.setDname("44");
+		d.setDname("8002");
 		arr.add(d);
 		return arr;
 	}

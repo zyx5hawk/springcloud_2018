@@ -22,7 +22,7 @@ public class DeptController {
 	public Dept get(@PathVariable("id") Long id) {
 		Dept d = new Dept();
 		d.setDeptno(id);
-		d.setDname(id.toString() + id.toString());
+		d.setDname("8001");
 		return d;
 	}
 
@@ -34,12 +34,12 @@ public class DeptController {
 
 		Dept d = new Dept();
 		d.setDeptno(1L);
-		d.setDname("11");
+		d.setDname("8001");
 		arr.add(d);
 
 		d = new Dept();
 		d.setDeptno(2L);
-		d.setDname("22");
+		d.setDname("8001");
 		arr.add(d);
 		return arr;
 	}
